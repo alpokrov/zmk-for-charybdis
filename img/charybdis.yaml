@@ -49,13 +49,13 @@ layers:
   - .
   - /
   - Shift
-  - LEFT WIN
-  - {t: Space, h: Mouse}
   - Shift
-  - Enter
+  - LEFT COMMAND
+  - '&mkp MCLK'
+  - RETURN
   - {t: Space, h: Numbers}
   - Ctrl
-  - '&mkp MCLK'
+  - {t: Space, h: Mouse}
   - BSPC
   Numbers:
   - '~'
@@ -164,10 +164,10 @@ layers:
   - ''
   - '&bootloader'
   - ''
-  - {type: held}
+  - ''
   - ''
   - ESC
   - Space
   - ''
-  - ''
+  - {type: held}
   - DEL
