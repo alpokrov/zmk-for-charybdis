@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - '{'
-  - Shift
+  - Alt
   - A
   - S
   - D
@@ -37,8 +37,8 @@ layers:
   - L
   - ;
   - ''''
-  - Ctrl
-  - {t: Z, h: Mouse}
+  - Shift
+  - Z
   - X
   - C
   - V
@@ -53,11 +53,11 @@ layers:
   - {t: Space, h: Mouse}
   - Shift
   - Enter
-  - {t: Space, h: Lower}
-  - Alt
+  - {t: Space, h: Numbers}
+  - Ctrl
   - '&mkp MCLK'
-  - ESC
-  Lower:
+  - BSPC
+  Numbers:
   - '~'
   - '!'
   - '#'
@@ -75,14 +75,14 @@ layers:
   - '2'
   - '3'
   - '4'
-  - '['
+  - ''
   - ']'
   - F1
   - F2
   - F3
   - F4
   - '}'
-  - LSHFT
+  - Alt
   - '5'
   - '6'
   - '7'
@@ -94,7 +94,7 @@ layers:
   - F7
   - F8
   - PgUp
-  - Ctrl
+  - Shift
   - '9'
   - '0'
   - '-'
@@ -109,68 +109,11 @@ layers:
   - LEFT WIN
   - Space
   - {t: ▽, type: trans}
-  - Enter
-  - {t: Alt, type: held}
+  - {t: Mouse, h: sticky}
+  - {type: held}
   - ''
   - ''
-  - ''
-  Raise:
-  - F12
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - Sft+`
-  - Sft+1
-  - Sft+2
-  - Sft+3
-  - Sft+4
-  - Sft+[
-  - Sft+]
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - LSHFT
-  - Sft+5
-  - Sft+6
-  - Sft+7
-  - Sft+8
-  - ''
-  - Sft+\
-  - ''
-  - ↑
-  - ''
-  - ''
-  - ''
-  - Ctrl
-  - Sft+9
-  - Sft+0
-  - Sft+-
-  - Sft+=
-  - ''
-  - ''
-  - ←
-  - ↓
-  - →
-  - ''
-  - ''
-  - LEFT WIN
-  - Space
-  - Enter
-  - {t: ▽, type: trans}
-  - Alt
-  - ''
-  - ''
-  - ''
+  - {t: Base, h: sticky}
   Mouse:
   - ''
   - ''
@@ -203,85 +146,28 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&mkp LCLK'
+  - '&mkp RCLK'
   - '&mkp MCLK'
   - ''
   - ''
-  - ''
   - '&bootloader'
-  - {type: held}
+  - ''
   - '&mkp RCLK'
-  - Scroll
+  - Base
   - '&mkp LCLK'
   - ''
   - '&studio_unlock'
   - '&mkp LCLK'
-  - Scroll
+  - ''
   - '&mkp RCLK'
   - ''
   - '&bootloader'
   - ''
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - '&mkp RCLK'
-  - '&mkp LCLK'
-  - ''
-  - ''
-  - ''
-  Scroll:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - ''
-  - BT CLR
-  - BT CLR
-  - ''
-  - {t: BT, h: '2'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '0'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - ''
-  - '&bootloader'
   - {type: held}
-  - '&mkp RCLK'
-  - {type: held}
-  - '&mkp LCLK'
+  - ''
+  - ESC
+  - Space
   - ''
   - ''
-  - '&mkp LCLK'
-  - ''
-  - '&mkp RCLK'
-  - ''
-  - '&bootloader'
-  - ''
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - '&mkp RCLK'
-  - '&mkp LCLK'
-  - ''
-  - ''
-  - ''
+  - DEL
