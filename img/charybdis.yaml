@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - \
+  - '-'
   - Tab
   - Q
   - W
@@ -52,11 +52,11 @@ layers:
   - Shift
   - {t: Space, h: Mouse}
   - Ctrl
-  - RETURN
+  - BSPC
   - {t: Space, h: Numbers}
   - LCMD
   - '&mkp MCLK'
-  - BSPC
+  - Enter
   Numbers:
   - F1
   - F2
@@ -83,11 +83,11 @@ layers:
   - '{'
   - '}'
   - Alt
-  - '='
-  - '*'
-  - /
-  - '-'
-  - +
+  - KP EQUAL
+  - KP MULTIPLY
+  - KP DIVIDE
+  - KP MINUS
+  - KP PLUS
   - '-'
   - '4'
   - '5'
@@ -115,11 +115,6 @@ layers:
   - '&mkp MCLK'
   - {t: Base, h: sticky}
   Mouse:
-  - '&To0_macro'
-  - '&To1_macro'
-  - '&To1_macro_A'
-  - '&To2_macro'
-  - '&To2_macro_A'
   - ''
   - ''
   - ''
@@ -128,6 +123,11 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Tab
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -139,19 +139,19 @@ layers:
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
   - ''
+  - Alt
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Ctl+LEFT ARROW
+  - Ctl+UP ARROW
+  - Ctl+→
   - ''
   - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp MCLK'
+  - UP ARROW
   - ''
-  - ''
-  - '&bootloader'
+  - Shift
   - ''
   - ''
   - ''
@@ -160,14 +160,14 @@ layers:
   - '&studio_unlock'
   - ''
   - ''
-  - ''
-  - ''
-  - '&bootloader'
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - ''
   - {type: held}
   - ''
-  - ESC
+  - DEL
   - Space
   - ''
   - ''
-  - DEL
+  - ESC
