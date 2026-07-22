@@ -53,10 +53,10 @@ layers:
   - {t: Space, h: Mouse}
   - Ctrl
   - BSPC
-  - {t: Space, h: Numbers}
+  - {t: Enter, h: Numbers}
   - LCMD
   - '&mkp MCLK'
-  - Enter
+  - Tab
   Numbers:
   - F1
   - F2
@@ -163,7 +163,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - ''
+  - '&studio_unlock'
   - {type: held}
   - ''
   - DEL
