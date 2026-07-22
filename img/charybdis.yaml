@@ -167,7 +167,7 @@ layers:
   - {type: held}
   - ''
   - DEL
-  - Space
-  - ''
-  - ''
   - ESC
+  - ''
+  - ''
+  - Sft+Tab
