@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - '{'
+  - '['
   - Alt
   - A
   - S
@@ -50,76 +50,76 @@ layers:
   - /
   - Shift
   - Shift
-  - LEFT COMMAND
-  - '&mkp MCLK'
+  - {t: Space, h: Mouse}
+  - Ctrl
   - RETURN
   - {t: Space, h: Numbers}
-  - Ctrl
-  - {t: Space, h: Mouse}
+  - LCMD
+  - '&mkp MCLK'
   - BSPC
   Numbers:
-  - '~'
-  - '!'
-  - '#'
-  - $
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '|'
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - ''
-  - ']'
   - F1
   - F2
   - F3
   - F4
-  - '}'
-  - Alt
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - ''
-  - \
   - F5
   - F6
   - F7
   - F8
-  - PgUp
-  - Shift
-  - '9'
-  - '0'
-  - '-'
-  - '='
-  - ''
-  - ''
   - F9
   - F10
   - F11
   - F12
-  - PgDn
-  - LEFT WIN
+  - Tab
+  - ''
+  - '['
+  - ']'
+  - '{'
+  - '}'
+  - +
+  - '7'
+  - '8'
+  - '9'
+  - '{'
+  - '}'
+  - Alt
+  - '='
+  - '*'
+  - /
+  - '-'
+  - +
+  - '-'
+  - '4'
+  - '5'
+  - '6'
+  - '['
+  - ']'
+  - Shift
+  - ''
+  - ''
+  - ''
+  - (
+  - )
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - Shift
+  - Shift
   - Space
-  - {t: ▽, type: trans}
+  - Ctrl
   - {t: Mouse, h: sticky}
   - {type: held}
-  - ''
-  - ''
+  - LEFT COMMAND
+  - '&mkp MCLK'
   - {t: Base, h: sticky}
   Mouse:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&To0_macro'
+  - '&To1_macro'
+  - '&To1_macro_A'
+  - '&To2_macro'
+  - '&To2_macro_A'
   - ''
   - ''
   - ''
@@ -142,7 +142,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&mkp MCLK'
+  - ''
   - ''
   - ''
   - ''
@@ -153,21 +153,21 @@ layers:
   - ''
   - '&bootloader'
   - ''
-  - '&mkp RCLK'
-  - Base
-  - '&mkp LCLK'
+  - ''
+  - ''
+  - ''
   - ''
   - '&studio_unlock'
-  - '&mkp LCLK'
   - ''
-  - '&mkp RCLK'
+  - ''
+  - ''
   - ''
   - '&bootloader'
   - ''
-  - ''
+  - {type: held}
   - ''
   - ESC
   - Space
   - ''
-  - {type: held}
+  - ''
   - DEL
