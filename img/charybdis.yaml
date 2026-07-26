@@ -50,13 +50,13 @@ layers:
   - /
   - Shift
   - Shift
-  - {t: Space, h: Mouse}
+  - {t: Enter, h: Mouse}
   - Ctrl
   - BSPC
-  - {t: Enter, h: Numbers}
+  - {t: Space, h: Numbers}
   - LCMD
   - '&mkp MCLK'
-  - Tab
+  - {t: Tab, h: Mouse}
   Numbers:
   - F1
   - F2
@@ -109,11 +109,11 @@ layers:
   - Shift
   - Space
   - Ctrl
-  - {t: Mouse, h: sticky}
+  - BSPC
   - {type: held}
   - LEFT COMMAND
   - '&mkp MCLK'
-  - {t: Base, h: sticky}
+  - Tab
   Mouse:
   - ''
   - ''
@@ -158,16 +158,16 @@ layers:
   - ''
   - ''
   - '&studio_unlock'
-  - ''
-  - ''
+  - '&mkp MB4'
+  - '&mkp MB5'
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
   - '&studio_unlock'
   - {type: held}
-  - ''
+  - Ctrl
   - DEL
   - ESC
-  - ''
-  - ''
+  - LEFT COMMAND
+  - '&mkp MCLK'
   - Sft+Tab
