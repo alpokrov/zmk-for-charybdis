@@ -107,7 +107,7 @@ layers:
   - .
   - Shift
   - Shift
-  - Space
+  - ESC
   - Ctrl
   - BSPC
   - {type: held}
@@ -164,10 +164,10 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - '&studio_unlock'
-  - {type: held}
+  - {t: ESC, type: held}
   - Ctrl
   - DEL
   - ESC
   - LEFT COMMAND
   - '&mkp MCLK'
-  - Sft+Tab
+  - ''
