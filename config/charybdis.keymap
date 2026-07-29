@@ -67,9 +67,7 @@
                                                 &kp LCMD     &mkp MCLK    &lt 2 TAB
             >;
 
-            sensor-bindings =
-                <&scroll_vertical_encoder>,
-                <&scroll_horizontal_encoder>;
+            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         Numbers {
@@ -95,7 +93,9 @@
                                                                       &kp LEFT_COMMAND  &mkp MCLK     &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings =
+                <&scroll_vertical_encoder>,
+                <&scroll_horizontal_encoder>;
         };
     };
 };
