@@ -114,7 +114,7 @@
 
     left_encoder_2: encoder_left_2 {
         compatible = "alps,ec11";
-      a-gpios = <&gpio1 02 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        a-gpios = <&gpio1 02 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&gpio1 07 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <12>;
         status = "disabled";
@@ -128,15 +128,13 @@
 };
 
 &charybdis_layout{
-
 	transform = <&default_transform>;
-
 	kscan = <&kscan0>;
-
 };
 
 zephyr_udc0: &usbd {
     compatible = "nordic,nrf-usbd";
     status = "okay";
-
 };
+
+//
