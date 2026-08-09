@@ -49,12 +49,12 @@ layers:
   - .
   - /
   - Shift
-  - Shift
+  - LCMD
   - {t: Space, h: Mouse}
   - Ctrl
   - BSPC
   - {t: Space, h: Numbers}
-  - LCMD
+  - Shift
   - '&mkp MCLK'
   - {t: Enter, h: Mouse}
   Numbers:
@@ -71,11 +71,11 @@ layers:
   - F11
   - F12
   - Tab
-  - ''
   - '['
   - ']'
   - '{'
   - '}'
+  - ''
   - +
   - '7'
   - '8'
@@ -97,21 +97,21 @@ layers:
   - Shift
   - ''
   - ''
-  - ''
   - (
   - )
+  - ''
   - '0'
   - '1'
   - '2'
   - '3'
   - .
   - Shift
-  - Shift
+  - LCMD
   - Space
   - Ctrl
   - BSPC
   - {type: held}
-  - LEFT COMMAND
+  - Shift
   - '&mkp MCLK'
   - ESC
   Mouse:
@@ -168,6 +168,6 @@ layers:
   - Ctrl
   - DEL
   - Space
-  - LEFT COMMAND
+  - Shift
   - '&mkp MCLK'
   - ESC
