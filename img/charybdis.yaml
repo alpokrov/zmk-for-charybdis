@@ -163,11 +163,11 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - '&studio_unlock'
+  - LCMD
   - {t: Space, type: held}
   - Ctrl
   - DEL
   - Space
-  - Shift
-  - '&mkp MCLK'
+  - LCMD
+  - '&studio_unlock'
   - ESC
