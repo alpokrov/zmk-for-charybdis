@@ -49,14 +49,14 @@ layers:
   - .
   - /
   - Shift
-  - LCMD
+  - {t: Enter, h: Numbers}
   - {t: Space, h: Mouse}
   - Ctrl
   - BSPC
-  - {t: Space, h: Numbers}
+  - {t: Space, h: Mouse}
   - Shift
   - '&mkp MCLK'
-  - {t: Enter, h: Mouse}
+  - RCMD
   Numbers:
   - F1
   - F2
@@ -106,14 +106,14 @@ layers:
   - '3'
   - .
   - Shift
-  - LCMD
+  - {t: ESC, type: held}
   - Space
   - Ctrl
   - BSPC
-  - {type: held}
+  - ''
   - Shift
   - '&mkp MCLK'
-  - ESC
+  - RCMD
   Mouse:
   - ''
   - {t: BT, h: '0'}
@@ -163,11 +163,11 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - LCMD
+  - ESC
   - {t: Space, type: held}
   - Ctrl
   - DEL
   - Space
   - LCMD
   - '&studio_unlock'
-  - ESC
+  - RCMD
