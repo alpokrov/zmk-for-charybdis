@@ -54,9 +54,9 @@ layers:
   - Ctrl
   - BSPC
   - {t: Space, h: Mouse}
-  - Shift
+  - LCMD
   - '&mkp MCLK'
-  - RCMD
+  - Shift
   Numbers:
   - F1
   - F2
@@ -111,9 +111,9 @@ layers:
   - Ctrl
   - BSPC
   - ''
-  - Shift
+  - LCMD
   - '&mkp MCLK'
-  - RCMD
+  - Shift
   Mouse:
   - ''
   - {t: BT, h: '0'}
@@ -170,4 +170,4 @@ layers:
   - Space
   - LCMD
   - '&studio_unlock'
-  - RCMD
+  - Shift
