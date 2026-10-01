@@ -76,7 +76,7 @@
 &kp TAB         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none          &kp PLUS        &kp N7        &kp N8  &kp N9        &kp LEFT_BRACE    &kp RIGHT_BRACE
 &kp LEFT_ALT    &kp KP_EQUAL      &kp KP_MULTIPLY    &kp KP_DIVIDE         &kp KP_MINUS           &kp KP_PLUS    &kp MINUS       &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LEFT_SHIFT  &none             &none              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none          &kp N0          &kp NUMBER_1  &kp N2  &kp N3        &kp DOT           &kp RIGHT_SHIFT
-                                                     &kp ESCAPE            &kp SPACE              &kp LCTRL      &kp BACKSPACE   &none
+                                                     &kp ESCAPE            &kp SPACE              &kp LCTRL      &kp BACKSPACE   &kp SPACE
                                                                            &kp LCMD               &mkp MCLK      &kp LEFT_SHIFT
             >;
 
@@ -85,11 +85,11 @@
 
         Mouse {
             bindings = <
-&trans      &trans              &trans            &trans              &trans         &trans       &trans           &trans     &trans     &trans          &trans          &trans
-&kp TAB     &none               &none             &none               &none          &none        &none            &none      &none      &none           &none           &none
-&kp LALT    &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &none        &none            &mkp LCLK  &mkp RCLK  &mkp MCLK       &kp UP_ARROW    &none
-&kp LSHIFT  &none               &none             &none               &none          &none        &studio_unlock   &mkp MB4   &mkp MB5   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-                                                  &kp ESCAPE          &kp SPACE      &kp LCTRL    &kp DEL          &kp SPACE
+&trans      &trans              &trans            &trans              &trans         &trans       &trans           &trans         &trans     &trans          &trans          &trans
+&kp TAB     &none               &none             &none               &none          &none        &none            &none          &none      &none           &none           &none
+&kp LALT    &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &none        &none            &mkp LCLK      &mkp RCLK  &mkp MCLK       &kp UP_ARROW    &none
+&kp LSHIFT  &none               &none             &none               &none          &none        &studio_unlock   &mkp MB4       &mkp MB5   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                                                  &kp ESCAPE          &kp LC(SPACE)  &kp LCTRL    &kp DEL          &kp LC(SPACE)
                                                                       &kp LCMD       &mkp MCLK    &kp RIGHT_SHIFT
             >;
 
